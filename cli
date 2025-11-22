@@ -1,0 +1,34 @@
+command line flags-
+
+dart --help 
+for every commands
+
+1. create a new file in empty directory by-
+dart$ dart create -t console simple . --force
+
+it will create file in the bin directory of same name as your empty folder
+it will make a starter app in vs, here, develop.dart
+"develop" is name of my folder name
+
+2. run the program
+$ dart run
+
+3. compile it on different targets
+(i) .exe
+$ dart compile exe bin <name of file>.dart
+
+it will make a .exe file in the directory
+
+to run it-
+$ bin/<name of the file>.exe
+
+(ii) .js
+$ dart compile js bin <name of the file>.dart
+
+it will make an out.js file
+
+to run it-
+$node out.js
+
+
+
