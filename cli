@@ -31,4 +31,4 @@ to run it-
 $node out.js
 
 
-
+be sure to install/extract flutter/dart into C:/Users because ir requires administrator permission and cmdline will get freeze on dart cmd
