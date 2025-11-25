@@ -1,0 +1,21 @@
+values are treated as tru or false in boolean context
+
+values which gives out false are falsy and same for truthy
+
+
+falsy values-
+1. false
+2. 0 and -0
+3. "" (empty string)
+4. null
+5. undefined
+6. NaN (Not a Number)
+
+truthy values-
+all values are truthy unless defined as falsy
+
+1. true
+2. any number
+3. any non-empty string
+4. Empty objects ( {} ) and arrays ( [] )
+5. dates 
