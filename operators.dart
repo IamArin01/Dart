@@ -8,6 +8,8 @@ String? name;
 name ??= 'some boy';
 //use to assign values on null variable
 var z = name ?? 'some boy';
+//if null operator
+// if expr1 is non-null, returns its value else returns expr2
 
 //Ternary
 String color = 'Blue';
